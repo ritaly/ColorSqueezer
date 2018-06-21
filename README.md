@@ -2,8 +2,8 @@
 
 Simple color scheme generator
 
-* HTML5 / css
-* Bootstrap 4 example
+* HTML5 / CSS
+* Bootstrap 4
 * JavaScript
 
 Answering question about Js generator by example

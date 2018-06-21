@@ -3,7 +3,7 @@
 let arrBlocks = document.querySelectorAll('.color-block');
 
 function randColor() {
-   return '#'+Math.floor(Math.random()*16777215).toString(16);
+   return '#' + Math.random().toString(16).slice(2, 8).toUpperCase();
 }
 
 function addColor() {

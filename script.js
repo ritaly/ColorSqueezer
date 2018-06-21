@@ -1,21 +1,10 @@
 'use strict';
-//Global Variables
-const hexChars = '0123456789ABCDEF';
 
 let arrBlocks = document.querySelectorAll('.color-block');
 
-//Function to generate random hex code
-
 function randColor() {
-    let hexCode = '#';
-    for(let i=0; i<=5; i++) {
-        let randNum = Math.floor(Math.random() * 16);
-        hexCode += hexChars[randNum];
-    } 
-    return hexCode;
+   return '#'+Math.floor(Math.random()*16777215).toString(16);
 }
-
-//Function to change page color & text 
 
 function addColor() {
     let hexCode = randColor();

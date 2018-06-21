@@ -1,2 +1,12 @@
 # ColorSqueezer
-simple color scheme generator
+
+Simple color scheme generator
+
+* HTML5 / css
+* Bootstrap 4 example
+* JavaScript
+
+Answering question about Js generator by example
+
+Test it!
+https://ritaly.github.io/ColorSqueezer/
